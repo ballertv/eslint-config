@@ -25,5 +25,5 @@ Whenever you update the shared config in the "eslint-config" repository, you can
 ```
 git submodule update --remote
 ```
-This will fetch and apply the latest changes from the "eslint-config" repository.
+This will fetch and apply the latest changes from the "eslint-config" repository. Please note that you will want to notify other teams / repository owners to pull the latest into their repos as well. 
 

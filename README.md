@@ -11,11 +11,13 @@ Overall, the "eslint-config" repository promotes efficient code maintenance, col
 
 
 # How to Configure
-Add the "eslint-config" repository as a submodule to your repository.
+1. Remove the existing .eslintrc.js or .eslintrc.json file if it exists.
+
+2. Add the "eslint-config" repository as a submodule to your repository.
 ```
 git submodule add https://github.com/ballertv/eslint-config.git .eslint-config
 ```
-Create a symbolic link (symlink) to the shared ESLint configuration file.
+3. Create a symbolic link (symlink) to the shared ESLint configuration file.
 ```
 ln -s .eslint-config/.eslintrc.js .eslintrc.js
 ```

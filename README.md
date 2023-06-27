@@ -13,7 +13,7 @@ Overall, the "eslint-config" repository promotes efficient code maintenance, col
 # How to Configure
 Add the "eslint-config" repository as a submodule to your repository.
 ```
-git submodule add https://github.com/ballertv/eslint-config.git)https://github.com/ballertv/eslint-config.git .eslint-config
+git submodule add https://github.com/ballertv/eslint-config.git .eslint-config
 ```
 Create a symbolic link (symlink) to the shared ESLint configuration file.
 ```

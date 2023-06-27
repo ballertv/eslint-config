@@ -1,5 +1,5 @@
 # eslint-config
-The "eslint-config" repository serves as a centralized location for maintaining and sharing a consistent ESLint configuration across multiple repositories. It contains an ESLint configuration file (typically named .eslintrc.js or .eslintrc.json) that defines the desired code style, rules, and settings for the associated projects.
+The "eslint-config" repository serves as a centralized location for maintaining and sharing a consistent ESLint configuration across multiple repositories. It contains an ESLint configuration file named .eslintrc.js that defines the desired code style, rules, and settings for the associated projects.
 
 By having a dedicated "eslint-config" repository, you can ensure that all repositories that use ESLint adhere to the same code style guidelines, making it easier to maintain consistency and readability across the codebase.
 

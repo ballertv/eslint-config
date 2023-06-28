@@ -29,3 +29,13 @@ git submodule update --remote
 ```
 This will fetch and apply the latest changes from the "eslint-config" repository. Please note that you will want to notify other teams / repository owners to pull the latest into their repos as well. 
 
+# Ruby Mine Setup
+<img width="913" alt="image" src="https://github.com/ballertv/eslint-config/assets/57688840/3dd31eea-1b58-46df-a1b6-1ae3e04aac22">
+
+1. **Install ESLint globally:** Run the following command to install ESLint globally: npm install -g eslint.
+2. **Open the project settings:** In the top menu, go to "RubyMine" > "Preferences" (macOS) or "File" > "Settings" (Windows/Linux).
+3.** Navigate to the ESLint settings:** In the left sidebar of the Preferences/Settings window, click on "Languages & Frameworks" > "JavaScript" > "Code Quality Tools" > "ESLint".
+4. **Enable ESLint on save:** Check Automatic ESLint configuration and Run eslint --fix on save
+5. **Save the settings:** Click "Apply" or "OK" to save the ESLint settings.
+6. **Verify the ESLint integration:** Open a JavaScript file in your project that should be linted by ESLint.
+

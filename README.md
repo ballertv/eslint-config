@@ -10,7 +10,7 @@ Whenever updates or improvements to the ESLint configuration are required, they 
 Overall, the "eslint-config" repository promotes efficient code maintenance, collaboration, and consistent code style enforcement across multiple repositories using ESLint.
 
 
-# How to Configure
+# How to Configure New Repo
 1. Remove the existing .eslintrc.js or .eslintrc.json file if it exists.
 
 2. Add the "eslint-config" repository as a submodule to your repository.

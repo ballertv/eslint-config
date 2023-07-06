@@ -28,7 +28,5 @@ module.exports = {
         // 'no-console': ['error', { allow: ['warn', 'error'] }],
         "react/prop-types": "off",
         "camelcase": "off",
-        "no-mixed-spaces-and-tabs": ["error", { "fixable": "whitespace" }],
-        "no-tabs": ["error", { "fixable": "whitespace" }],
     },
 };

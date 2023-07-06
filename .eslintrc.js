@@ -27,5 +27,6 @@ module.exports = {
         // example of overriding a rule
         // 'no-console': ['error', { allow: ['warn', 'error'] }],
         "react/prop-types": "off",
+        "camelcase": "off",
     },
 };

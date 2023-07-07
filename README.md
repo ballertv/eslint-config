@@ -12,9 +12,9 @@ The "eslint-config" repository serves as a centralized location for maintaining 
 5. **Verify the ESLint integration:** Open a JavaScript file in your project that should be linted by ESLint.
 
 # Repositories Using This Config
-- [ballertv/baller](https://github.com/ballertv/baller)
-- [ballertv/BallerApps](https://github.com/ballertv/BallerApps)
-- [ballertv/btv-mobile](https://github.com/ballertv/btv-mobile)
+[x] [ballertv/baller](https://github.com/ballertv/baller)
+[x] [ballertv/BallerApps](https://github.com/ballertv/BallerApps)
+[ ] [ballertv/btv-mobile](https://github.com/ballertv/btv-mobile)
 
 # How to Configure New Repo
 1. Remove the existing .eslintrc.js or .eslintrc.json file if it exists.

@@ -2,7 +2,8 @@
 The "eslint-config" repository serves as a centralized location for maintaining and sharing a consistent ESLint configuration across multiple repositories. It contains an ESLint configuration file named .eslintrc.js that defines the desired code style, rules, and settings for the associated projects.
 
 # Ruby Mine Setup
-<img width="913" alt="image" src="https://github.com/ballertv/eslint-config/assets/57688840/3dd31eea-1b58-46df-a1b6-1ae3e04aac22">
+![image](https://github.com/ballertv/eslint-config/assets/57688840/31395fdd-3b7d-473d-9d62-3c002777a0a4)
+
 
 1. **Install ESLint globally:** Run the following command to install ESLint globally: npm install -g eslint.
 2. **Open the project settings:** In the top menu, go to "RubyMine" > "Preferences" (macOS) or "File" > "Settings" (Windows/Linux).

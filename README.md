@@ -25,10 +25,6 @@ Below is a list of repositories that have been setup using this submodule. If yo
 ```
 git submodule add https://github.com/ballertv/eslint-config.git .eslint-config
 ```
-3. Create a symbolic link (symlink) to the shared ESLint configuration file.
-```
-ln -s .eslint-config/.eslintrc.js .eslintrc.js
-```
 
 # Making Updates? 
 Whenever updates or improvements to the ESLint configuration are required, they can be made in this "eslint-config" repository, and the changes can be pulled into the individual repositories that depend on it, ensuring all projects benefit from the latest code style guidelines.

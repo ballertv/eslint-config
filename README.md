@@ -13,6 +13,7 @@ The "eslint-config" repository serves as a centralized location for maintaining 
 6. **Verify the ESLint integration:** Open a JavaScript file in your project that should be linted by ESLint.
 
 # Repositories Using This Config
+Below is a list of repositories that have been setup using this submodule. If your repo is checked off there isn't anything for you to do aside from setting up your IDE to support eslint.
 - [x] [ballertv/baller](https://github.com/ballertv/baller)
 - [x] [ballertv/BallerApps](https://github.com/ballertv/BallerApps)
 - [ ] [ballertv/btv-mobile](https://github.com/ballertv/btv-mobile)

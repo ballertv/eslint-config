@@ -6,11 +6,11 @@ The "eslint-config" repository serves as a centralized location for maintaining 
 
 
 1. **Install ESLint globally:** Run the following command to install ESLint globally: npm install -g eslint.
-2. **Open the project settings:** In the top menu, go to "RubyMine" > "Preferences" (macOS) or "File" > "Settings" (Windows/Linux).
-   3.** Navigate to the ESLint settings:** In the left sidebar of the Preferences/Settings window, click on "Languages & Frameworks" > "JavaScript" > "Code Quality Tools" > "ESLint".
-3. **Enable ESLint on save:** Check Automatic ESLint configuration and Run eslint --fix on save
-4. **Save the settings:** Click "Apply" or "OK" to save the ESLint settings.
-5. **Verify the ESLint integration:** Open a JavaScript file in your project that should be linted by ESLint.
+2. **Open the project settings:** In the top menu, go to "RubyMine" > "Preferences".
+3. **Navigate to the ESLint settings:** In the left sidebar of the Preferences/Settings window, click on "Languages & Frameworks" > "JavaScript" > "Code Quality Tools" > "ESLint".
+4. **Enable ESLint on save:** Check Automatic ESLint configuration and Run eslint --fix on save
+5. **Save the settings:** Click "Apply" or "OK" to save the ESLint settings.
+6. **Verify the ESLint integration:** Open a JavaScript file in your project that should be linted by ESLint.
 
 # Repositories Using This Config
 - [x] [ballertv/baller](https://github.com/ballertv/baller)

@@ -54,6 +54,6 @@ module.exports = {
         'react/prop-types': 'off',
         'react/require-default-props': 'off',
         camelcase: 'off',
-        indent: ['error', 4],
+        indent: 'off',
     },
 };

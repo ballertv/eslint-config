@@ -1,5 +1,0 @@
-# These files and directories will be ignored by Prettier code formatter
-# Add new files and directories below to ignore vendor or third party code.
-
-app/assets/stylesheets/vendor/**
-app/**/*.js

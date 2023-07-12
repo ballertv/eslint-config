@@ -57,5 +57,22 @@ module.exports = {
         "react/prop-types": "off",
         "react/require-default-props": "off",
         camelcase: "off",
+        "react/jsx-indent": "off",
+        indent: ["error", 4],
+        "prettier/prettier": [
+            "error",
+            {
+                trailingComma: "all",
+                tabWidth: 4,
+                semi: true,
+                printWidth: 80,
+                arrowParens: "avoid",
+                bracketSpacing: true,
+                endOfLine: "auto",
+                htmlWhitespaceSensitivity: "css",
+                proseWrap: "preserve",
+                quoteProps: "as-needed",
+            },
+        ],
     },
 };

@@ -6,8 +6,8 @@ module.exports = {
     extends: [
         "airbnb",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
         "plugin:prettier/recommended",
+        "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
     ],
     overrides: [
         {
@@ -21,9 +21,10 @@ module.exports = {
             extends: [
                 "airbnb",
                 "plugin:@typescript-eslint/recommended",
-                "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
                 "plugin:prettier/recommended",
+                "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
             ],
+            plugins: ["prettier"],
         },
         {
             env: {

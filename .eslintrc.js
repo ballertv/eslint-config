@@ -3,7 +3,11 @@ module.exports = {
         browser: true,
         es2021: true,
     },
-    extends: ['airbnb', 'plugin:@typescript-eslint/recommended'],
+    extends: [
+        'airbnb',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:prettier/recommended',
+    ],
     overrides: [
         {
             files: ['*.ts', '*.tsx'],
@@ -23,9 +27,7 @@ module.exports = {
             env: {
                 node: true,
             },
-            files: [
-                '.eslintrc.{js,cjs}',
-            ],
+            files: ['.eslintrc.{js,cjs}'],
             parserOptions: {
                 sourceType: 'script',
             },
@@ -35,6 +37,7 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
+    plugins: ['prettier'],
     settings: {
         react: {
             version: 'detect', // Set the appropriate React version here
@@ -44,7 +47,10 @@ module.exports = {
     // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb/rules
     rules: {
         // example of overriding a rule
-        'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.js', '.tsx'] }],
+        'react/jsx-filename-extension': [
+            'error',
+            { extensions: ['.jsx', '.js', '.tsx'] },
+        ],
         'react/prop-types': 'off',
         'react/require-default-props': 'off',
         camelcase: 'off',

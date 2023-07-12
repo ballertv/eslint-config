@@ -4,56 +4,58 @@ module.exports = {
         es2021: true,
     },
     extends: [
-        'airbnb',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:prettier/recommended',
+        "airbnb",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended",
     ],
     overrides: [
         {
-            files: ['*.ts', '*.tsx'],
-            parser: '@typescript-eslint/parser',
+            files: ["*.ts", "*.tsx"],
+            parser: "@typescript-eslint/parser",
             parserOptions: {
                 ecmaVersion: 2021,
-                sourceType: 'module',
+                sourceType: "module",
                 tsconfigRootDir: __dirname, // Typescript config file location
             },
             extends: [
-                'airbnb',
-                'plugin:@typescript-eslint/recommended',
-                'plugin:react/recommended', // Uses the recommended rules from @eslint-plugin-react
+                "airbnb",
+                "plugin:@typescript-eslint/recommended",
+                "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
             ],
         },
         {
             env: {
                 node: true,
             },
-            files: ['.eslintrc.{js,cjs}'],
+            files: [".eslintrc.{js,cjs}"],
             parserOptions: {
-                sourceType: 'script',
+                sourceType: "script",
             },
         },
     ],
     parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
+        ecmaVersion: "latest",
+        sourceType: "module",
     },
-    plugins: ['prettier'],
+    plugins: ["prettier"],
     settings: {
         react: {
-            version: 'detect', // Set the appropriate React version here
+            version: "detect", // Set the appropriate React version here
         },
     },
     //  Can override any rules we disagree with here
     // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb/rules
     rules: {
         // example of overriding a rule
-        'react/jsx-filename-extension': [
-            'error',
-            { extensions: ['.jsx', '.js', '.tsx'] },
+        "react/jsx-filename-extension": [
+            "error",
+            { extensions: [".jsx", ".js", ".tsx"] },
         ],
-        'react/prop-types': 'off',
-        'react/require-default-props': 'off',
-        camelcase: 'off',
-        indent: 'off',
+        "react/prop-types": "off",
+        "react/require-default-props": "off",
+        "react/jsx-indent-props": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        camelcase: "off",
+        indent: ["error", 4],
     },
 };

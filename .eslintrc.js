@@ -11,7 +11,7 @@ module.exports = {
             parserOptions: {
                 ecmaVersion: 2021,
                 sourceType: 'module',
-                project: './tsconfig.js', // Config file for TypeScript
+                tsconfigRootDir: __dirname, // Typescript config file location
             },
             extends: [
                 'airbnb',
@@ -44,8 +44,8 @@ module.exports = {
     // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb/rules
     rules: {
         // example of overriding a rule
-        // 'no-console': ['error', { allow: ['warn', 'error'] }],
-        "react/prop-types": "off",
         "camelcase": "off",
+        "react/prop-types": "off",
+        'react/require-default-props': 'off',
     },
 };

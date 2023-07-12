@@ -53,9 +53,6 @@ module.exports = {
         ],
         "react/prop-types": "off",
         "react/require-default-props": "off",
-        "react/jsx-indent-props": ["error", 4],
-        "react/jsx-indent": ["error", 4],
         camelcase: "off",
-        indent: ["error", 4],
     },
 };

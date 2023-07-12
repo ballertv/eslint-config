@@ -43,7 +43,8 @@ module.exports = {
     //  Can override any rules we disagree with here
     // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb/rules
     rules: {
-    // example of overriding a rule
+        // example of overriding a rule
+        'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.js', '.tsx'] }],
         'react/prop-types': 'off',
         'react/require-default-props': 'off',
         camelcase: 'off',

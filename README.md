@@ -5,6 +5,8 @@ The "eslint-config" repository serves as a centralized location for maintaining 
 Todo
 
 # Ruby Mine Setup
+https://www.jetbrains.com/help/idea/linting-typescript.html
+
 ![image](https://github.com/ballertv/eslint-config/assets/57688840/31395fdd-3b7d-473d-9d62-3c002777a0a4)
 
 

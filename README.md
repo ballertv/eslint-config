@@ -1,7 +1,12 @@
 # eslint-config
 The "eslint-config" repository serves as a centralized location for maintaining and sharing a consistent ESLint configuration across multiple repositories. It contains an ESLint configuration file named .eslintrc.js that defines the desired code style, rules, and settings for the associated projects.
 
+# VSCode Setup
+Todo
+
 # Ruby Mine Setup
+https://www.jetbrains.com/help/idea/linting-typescript.html
+
 ![image](https://github.com/ballertv/eslint-config/assets/57688840/31395fdd-3b7d-473d-9d62-3c002777a0a4)
 
 
@@ -34,3 +39,5 @@ git submodule update --remote
 ```
 This will fetch and apply the latest changes from the "eslint-config" repository. Please note that you will want to notify other teams / repository owners to pull the latest into their repos as well.
 
+# Why Not Prettier?
+We prefer to use ESLint Stylistic instead. See the following link for more information: https://eslint.style/guide/why

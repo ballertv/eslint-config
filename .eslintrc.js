@@ -4,7 +4,7 @@ module.exports = {
         es2021: true,
     },
     extends: [
-        "airbnb",
+        // "airbnb",
         'eslint:recommended',
         "plugin:@typescript-eslint/recommended",
         'plugin:@typescript-eslint/stylistic',
@@ -21,7 +21,7 @@ module.exports = {
                 tsconfigRootDir: __dirname, // Typescript config file location
             },
             extends: [
-                "airbnb",
+                // "airbnb",
                 "plugin:@typescript-eslint/recommended",
                 "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
             ],
@@ -41,7 +41,6 @@ module.exports = {
         ecmaVersion: "latest",
         sourceType: "module",
     },
-    // plugins: ["prettier"],
     settings: {
         react: {
             version: "detect", // Set the appropriate React version here
@@ -57,7 +56,6 @@ module.exports = {
         ],
         "react/prop-types": "off",
         "react/require-default-props": "off",
-        camelcase: "off",
 
         // https://eslint.style/packages/default
         '@stylistic/array-bracket-newline': ["error", "always"],
@@ -70,25 +68,10 @@ module.exports = {
         "@stylistic/jsx/jsx-closing-bracket-location": ["error", 1, 'line-aligned'],
         "@stylistic/jsx/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
         "@stylistic/multiline-ternary": ["error", "always-multiline"],
-        // To be continued... current progress, `no-confusing-arrow`
-        // https://eslint.style/packages/default
-
-
-
-        // "prettier/prettier": [
-        //     "error",
-        //     {
-        //         trailingComma: "all",
-        //         tabWidth: 4,
-        //         semi: true,
-        //         printWidth: 80,
-        //         arrowParens: "avoid",
-        //         bracketSpacing: true,
-        //         endOfLine: "auto",
-        //         htmlWhitespaceSensitivity: "css",
-        //         proseWrap: "preserve",
-        //         quoteProps: "as-needed",
-        //     },
-        // ],
+        "@stylistic/object-curly-newline": ["error", { "minProperties": 2 }],
+        "@stylistic/object-property-newline": ["error"],
+        "@stylistic/operator-linebreak": ["error", "before"],
+        "@stylistic/padded-blocks": ["error", "never"],
+        "@stylistic/quote-props": ["error", "consistent-as-needed"],
     },
 };

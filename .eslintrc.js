@@ -5,8 +5,10 @@ module.exports = {
     },
     extends: [
         "airbnb",
+        'eslint:recommended',
         "plugin:@typescript-eslint/recommended",
-        "plugin:prettier/recommended",
+        'plugin:@typescript-eslint/stylistic',
+        'plugin:@typescript-eslint/recommended-type-checked',
         "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
     ],
     overrides: [
@@ -21,10 +23,9 @@ module.exports = {
             extends: [
                 "airbnb",
                 "plugin:@typescript-eslint/recommended",
-                "plugin:prettier/recommended",
                 "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
             ],
-            plugins: ["prettier"],
+            // plugins: ["prettier"],
         },
         {
             env: {
@@ -40,7 +41,7 @@ module.exports = {
         ecmaVersion: "latest",
         sourceType: "module",
     },
-    plugins: ["prettier"],
+    // plugins: ["prettier"],
     settings: {
         react: {
             version: "detect", // Set the appropriate React version here
@@ -52,25 +53,42 @@ module.exports = {
         // example of overriding a rule
         "react/jsx-filename-extension": [
             "error",
-            { extensions: [".jsx", ".js", ".tsx"] },
+            { extensions: [".jsx", ".js", ".ts", ".tsx"] },
         ],
         "react/prop-types": "off",
         "react/require-default-props": "off",
         camelcase: "off",
-        "prettier/prettier": [
-            "error",
-            {
-                trailingComma: "all",
-                tabWidth: 4,
-                semi: true,
-                printWidth: 80,
-                arrowParens: "avoid",
-                bracketSpacing: true,
-                endOfLine: "auto",
-                htmlWhitespaceSensitivity: "css",
-                proseWrap: "preserve",
-                quoteProps: "as-needed",
-            },
-        ],
+
+        // https://eslint.style/packages/default
+        '@stylistic/array-bracket-newline': ["error", "always"],
+        '@stylistic/array-bracket-spacing': ["error", "always"],
+        '@stylistic/brace-style': ['error', "1tbs", { "allowSingleLine": true }],
+        '@stylistic/dot-location': ["error", "property"],
+        '@stylistic/function-paren-newline': ["error", { "minItems": 2 }],
+        '@stylistic/indent': ['error', "tab"],
+        "@stylistic/indent-binary-ops": ["error", "tab"],
+        "@stylistic/jsx/jsx-closing-bracket-location": ["error", 1, 'line-aligned'],
+        "@stylistic/jsx/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
+        "@stylistic/multiline-ternary": ["error", "always-multiline"],
+        // To be continued... current progress, `no-confusing-arrow`
+        // https://eslint.style/packages/default
+
+
+
+        // "prettier/prettier": [
+        //     "error",
+        //     {
+        //         trailingComma: "all",
+        //         tabWidth: 4,
+        //         semi: true,
+        //         printWidth: 80,
+        //         arrowParens: "avoid",
+        //         bracketSpacing: true,
+        //         endOfLine: "auto",
+        //         htmlWhitespaceSensitivity: "css",
+        //         proseWrap: "preserve",
+        //         quoteProps: "as-needed",
+        //     },
+        // ],
     },
 };

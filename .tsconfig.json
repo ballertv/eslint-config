@@ -8,6 +8,6 @@
     "sourceMap": true,
     "outDir": "dist"
   },
-  "include": ["apps/**/*", "libs/**/*", "app/javascript/**/*"],
+  "include": ["apps/**/*", "libs/**/*", "app/javascript/**/*", "app/typescript/**/*", "stories/**/*"],
   "exclude": ["node_modules", "dist"]
 }
